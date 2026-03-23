@@ -12,5 +12,14 @@
             SpeakHello.speak(names[i]);
         }
     }
+console.log("=== Additional Task: Name Length Check ===");
 
+    for (var i = 0; i < names.length; i++) {
+
+        if (names[i].length > 5) {
+            console.log("Special Hello " + names[i]);
+        } else {
+            console.log("Short Name " + names[i]);
+        }
+    }
 })();
